@@ -31,7 +31,6 @@ def find_maximum_subarray_brute(A, low=0, high=-1):
     else:
         return (startIndex, endIndex, maxSum)
 
-
       
 def find_maximum_crossing_subarray(A, low, mid, high):
     """
